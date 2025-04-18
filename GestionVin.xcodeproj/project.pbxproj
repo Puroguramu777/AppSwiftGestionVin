@@ -11,6 +11,17 @@
 		7D12A83B2DB233FB003EEE5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A83A2DB233FB003EEE5D /* ContentView.swift */; };
 		7D12A83D2DB233FD003EEE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D12A83C2DB233FD003EEE5D /* Assets.xcassets */; };
 		7D12A8402DB233FD003EEE5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D12A83F2DB233FD003EEE5D /* Preview Assets.xcassets */; };
+		7D12A84C2DB23480003EEE5D /* Bouteille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A84B2DB23480003EEE5D /* Bouteille.swift */; };
+		7D12A84E2DB23493003EEE5D /* Degustation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A84D2DB23493003EEE5D /* Degustation.swift */; };
+		7D12A8502DB2349D003EEE5D /* Utilisateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A84F2DB2349D003EEE5D /* Utilisateur.swift */; };
+		7D12A8522DB234AC003EEE5D /* CellierViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A8512DB234AC003EEE5D /* CellierViewModel.swift */; };
+		7D12A8542DB234B7003EEE5D /* AccueilViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A8532DB234B7003EEE5D /* AccueilViewModel.swift */; };
+		7D12A8562DB234D3003EEE5D /* AccueilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A8552DB234D3003EEE5D /* AccueilView.swift */; };
+		7D12A8582DB234E5003EEE5D /* CellierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A8572DB234E5003EEE5D /* CellierView.swift */; };
+		7D12A85A2DB234F8003EEE5D /* AjoutBouteilleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A8592DB234F8003EEE5D /* AjoutBouteilleView.swift */; };
+		7D12A85C2DB23507003EEE5D /* DegustationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A85B2DB23507003EEE5D /* DegustationView.swift */; };
+		7D12A85E2DB2351B003EEE5D /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A85D2DB2351B003EEE5D /* ProfilView.swift */; };
+		7D12A8602DB23526003EEE5D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A85F2DB23526003EEE5D /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		7D12A83A2DB233FB003EEE5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D12A83C2DB233FD003EEE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D12A83F2DB233FD003EEE5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D12A84B2DB23480003EEE5D /* Bouteille.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bouteille.swift; sourceTree = "<group>"; };
+		7D12A84D2DB23493003EEE5D /* Degustation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degustation.swift; sourceTree = "<group>"; };
+		7D12A84F2DB2349D003EEE5D /* Utilisateur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilisateur.swift; sourceTree = "<group>"; };
+		7D12A8512DB234AC003EEE5D /* CellierViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellierViewModel.swift; sourceTree = "<group>"; };
+		7D12A8532DB234B7003EEE5D /* AccueilViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccueilViewModel.swift; sourceTree = "<group>"; };
+		7D12A8552DB234D3003EEE5D /* AccueilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccueilView.swift; sourceTree = "<group>"; };
+		7D12A8572DB234E5003EEE5D /* CellierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellierView.swift; sourceTree = "<group>"; };
+		7D12A8592DB234F8003EEE5D /* AjoutBouteilleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjoutBouteilleView.swift; sourceTree = "<group>"; };
+		7D12A85B2DB23507003EEE5D /* DegustationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegustationView.swift; sourceTree = "<group>"; };
+		7D12A85D2DB2351B003EEE5D /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		7D12A85F2DB23526003EEE5D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,10 @@
 		7D12A8372DB233FB003EEE5D /* GestionVin */ = {
 			isa = PBXGroup;
 			children = (
+				7D12A84A2DB23450003EEE5D /* Services */,
+				7D12A8492DB2343B003EEE5D /* Views */,
+				7D12A8482DB23432003EEE5D /* ViewModels */,
+				7D12A8472DB2342C003EEE5D /* Models */,
 				7D12A8382DB233FB003EEE5D /* GestionVinApp.swift */,
 				7D12A83A2DB233FB003EEE5D /* ContentView.swift */,
 				7D12A83C2DB233FD003EEE5D /* Assets.xcassets */,
@@ -65,6 +91,45 @@
 				7D12A83F2DB233FD003EEE5D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D12A8472DB2342C003EEE5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D12A84B2DB23480003EEE5D /* Bouteille.swift */,
+				7D12A84D2DB23493003EEE5D /* Degustation.swift */,
+				7D12A84F2DB2349D003EEE5D /* Utilisateur.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D12A8482DB23432003EEE5D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7D12A8512DB234AC003EEE5D /* CellierViewModel.swift */,
+				7D12A8532DB234B7003EEE5D /* AccueilViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7D12A8492DB2343B003EEE5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D12A8552DB234D3003EEE5D /* AccueilView.swift */,
+				7D12A8572DB234E5003EEE5D /* CellierView.swift */,
+				7D12A8592DB234F8003EEE5D /* AjoutBouteilleView.swift */,
+				7D12A85B2DB23507003EEE5D /* DegustationView.swift */,
+				7D12A85D2DB2351B003EEE5D /* ProfilView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D12A84A2DB23450003EEE5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7D12A85F2DB23526003EEE5D /* APIService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D12A85A2DB234F8003EEE5D /* AjoutBouteilleView.swift in Sources */,
+				7D12A85C2DB23507003EEE5D /* DegustationView.swift in Sources */,
+				7D12A85E2DB2351B003EEE5D /* ProfilView.swift in Sources */,
+				7D12A84C2DB23480003EEE5D /* Bouteille.swift in Sources */,
+				7D12A8522DB234AC003EEE5D /* CellierViewModel.swift in Sources */,
 				7D12A83B2DB233FB003EEE5D /* ContentView.swift in Sources */,
+				7D12A8502DB2349D003EEE5D /* Utilisateur.swift in Sources */,
+				7D12A8582DB234E5003EEE5D /* CellierView.swift in Sources */,
 				7D12A8392DB233FB003EEE5D /* GestionVinApp.swift in Sources */,
+				7D12A8602DB23526003EEE5D /* APIService.swift in Sources */,
+				7D12A8562DB234D3003EEE5D /* AccueilView.swift in Sources */,
+				7D12A8542DB234B7003EEE5D /* AccueilViewModel.swift in Sources */,
+				7D12A84E2DB23493003EEE5D /* Degustation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

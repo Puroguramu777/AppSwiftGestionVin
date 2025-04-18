@@ -1,8 +1,5 @@
-//
-//  AccueilViewModel.swift
-//  GestionVin
-//
-//  Created by Stagiaire on 18/04/2025.
-//
+import SwiftUI
 
-import Foundation
+class AccueilViewModel: ObservableObject {
+    // Propriétés et méthodes de ton view model pour la page d'accueil
+}

@@ -1,17 +1,23 @@
-//
-//  GestionVinApp.swift
-//  GestionVin
-//
-//  Created by Stagiaire on 18/04/2025.
-//
-
 import SwiftUI
 
 @main
 struct GestionVinApp: App {
+    @StateObject var cellierVM = CellierViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                // CellierView sans passage de `selectedBouteille`
+                CellierView(viewModel: cellierVM)
+                    .tabItem { Label("Cellier", systemImage: "wineglass") }
+
+                AjoutBouteilleView(viewModel: cellierVM)
+                    .tabItem { Label("Ajouter", systemImage: "plus.circle") }
+
+                // Ne pas passer `selectedBouteille`, le gestionnaire est déjà fait dans `DegustationView`
+                DegustationView(viewModel: cellierVM)
+                    .tabItem { Label("Dégustation", systemImage: "star.circle") }
+            }
         }
     }
 }
